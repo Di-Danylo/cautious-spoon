@@ -30,7 +30,7 @@ pipenv install pytest
 pytest tests/tests.py
 ```
 5. Дописала у програмі функцію, що перевіряє час доби на AM/PM та відповідно друкує "Доброго дня/вечора". Також написав тест який перевіряє правильність роботи функції.
-6. Перенаправив результат виконання функції та тестів у файл results.txt:
+6. Перенаправила результат виконання функції та тестів у файл results.txt:
 ```
 pipenv run pytest tests/tests.py > results.txt
 pipenv run python app.py append >> results.txt
