@@ -1,0 +1,11 @@
+ERROR 2020-11-28 01:14:36,990 root : lab3: something going wrong: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff4a963f250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-28 01:15:37,060 root : lab3: something going wrong: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff4a963fb20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO 2020-11-28 01:16:37,183 root : Сервер доступний. Час на сервері: Fri, 27 Nov 2020 23:16:37 +0000
+INFO 2020-11-28 01:16:37,183 root : Запитувана сторінка: : /health/
+INFO 2020-11-28 01:16:37,184 root : Відповідь сервера місти наступні поля:
+INFO 2020-11-28 01:16:37,184 root : Ключ: date, Значення: Fri, 27 Nov 2020 23:16:37 +0000
+INFO 2020-11-28 01:16:37,184 root : Ключ: current_page, Значення: /health/
+INFO 2020-11-28 01:16:37,184 root : Ключ: server_info, Значення: Linux
+INFO 2020-11-28 01:16:37,185 root : Ключ: client_info, Значення: diana
+ERROR 2020-11-28 01:17:37,251 root : lab3: something going wrong: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff4a963f970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-28 01:18:37,314 root : lab3: something going wrong: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff4a9629d30>: Failed to establish a new connection: [Errno 111] Connection refused'))
